@@ -1,0 +1,56 @@
+/* @import url(https://fonts.google.com/specimen/Plus+Jakarta+Sans);
+body{
+    font-family: Plus Jakarta Sans;
+} */
+.profile-picture {
+  width: 12vw;
+  height: 9vh;
+  object-fit: contain;
+  margin-left: 3vw;
+  margin-right: 3vw;
+}
+h5 {
+    font-weight: 500;
+  color:hsl(219, 12%, 42%);
+  margin-bottom: 0;
+}
+.notification-popup{
+    background-color: hsl(210, 60%, 98%);
+    margin-top: 2vh;
+
+}
+.unread{
+    border-radius: 50%;
+    height: 2px;
+}
+.name{
+    color: hsl(224, 21%, 14%);
+    font-weight: 800;
+}
+.notification{
+    color:  hsl(224, 21%, 1);
+    font-weight: 800;
+}
+.notification-no{
+    border-radius: 6px;
+    padding:1px 9px;
+    background-color:hsl(219, 85%, 26%);
+color: hsl(0, 0%, 100%);
+}
+.chess-club{
+    color:  hsl(219, 85%, 26%);
+    font-weight: 800;
+}
+.read{
+    color: hsl(219, 12%, 42%);
+    
+}
+.time{
+    color: hsl(219, 14%, 63%);
+}
+.fa-solid{
+    font-size: .7rem;
+}
+.my-post{
+    color:hsl(224, 21%, 14%);
+}
