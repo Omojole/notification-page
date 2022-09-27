@@ -19,6 +19,9 @@ h5 {
     margin-top: 2vh;
 
 }
+.hide{
+    background-color:hsl(0, 0%, 100%) ;
+}
 .unread{
     border-radius: 50%;
     height: 2px;
