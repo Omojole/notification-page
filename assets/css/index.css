@@ -45,11 +45,16 @@ color: hsl(0, 0%, 100%);
     color: hsl(219, 12%, 42%);
     
 }
+.notification-colour{
+    background-color: hsl(0, 0%, 100%);
+    margin-top: 2vh;
+}
 .time{
     color: hsl(219, 14%, 63%);
 }
 .fa-solid{
     font-size: .7rem;
+    color:hsl(1, 90%, 64%);
 }
 .my-post{
     color:hsl(224, 21%, 14%);
