@@ -1,7 +1,11 @@
-const notificationPopup=document.querySelector('.notification-popup')
-console.log(notificationPopup);
-notificationPopup.onclick=function(){
-    document.querySelector('.notification-popup').classList.add('hide');
-    document.querySelectorAll('.notification-popup').classList.remove('notification-popup');
-console.log('here');
-}
+const notificationPopup = document.querySelectorAll(".notificationPopupClass");
+notificationPopup.forEach((notificationPopupclass, i) => {
+  notificationPopupclass.onclick = function () {
+    // i.classList.add("hide");
+   const notificationNo=1+i
+    document.getElementById(`popup_${notificationNo}`).classList.remove("notificationPopupClass");
+    // document.getElementById(`activeIcon_${notificationNo}`).classList.remove('.fa-circle');
+
+  };      
+});
+

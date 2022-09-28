@@ -1,4 +1,4 @@
-/* @import url(https://fonts.google.com/specimen/Plus+Jakarta+Sans);
+        /* @import url(https://fonts.google.com/specimen/Plus+Jakarta+Sans);
 body{
     font-family: Plus Jakarta Sans;
 } */
@@ -8,19 +8,16 @@ body{
   object-fit: contain;
   margin-left: 3vw;
   margin-right: 3vw;
-}
+}   
 h5 {
     font-weight: 500;
   color:hsl(219, 12%, 42%);
   margin-bottom: 0;
 }
-.notification-popup{
+.notificationPopupClass{
     background-color: hsl(210, 60%, 98%);
     margin-top: 2vh;
 
-}
-.hide{
-    background-color:hsl(0, 0%, 100%) ;
 }
 .unread{
     border-radius: 50%;
