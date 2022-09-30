@@ -9,169 +9,231 @@
       integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="/assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
     <link
       rel="icon"
       type="image/png"
       sizes="32x32"
-      href="./images/favicon-32x32.png"
+      href="assets/images/favicon-32x32.png"
     />
 
     <title>Frontend Mentor | Notifications page</title>
-
-    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
     <div class="container">
-      <header class="d-flex justify-content-between my-3">
-        <h4 class="notification-heading">Notifications <span class="notification-no">7</span>
-        </h4>
-        <span class="read">Mark all as read</span>
-      </header>
-      <section class="mt-3">
-        <!-- Mark -->
-        <div class="d-flex mx-1 notificationPopupClass  notification-box" id="popup_1"> 
-          <img
-            src="/assets/images/avatar-mark-webber.webp"
-            alt="mark-webber's profile picture"
-            class="profile-picture"
-          />
-          <div>
-            <h5>
-              <span class="name">Mark Webber</span> reacted to your recent post
-              <span class="my-post"> My first
-                tournament today!</span>  
-                 <sup>
-                  <i class="fa-solid fa-circle text-danger" id="activeIcon_1"></i>
-                </sup>      
- 
-            </h5>
-            <span class="time
-          "> 1m ago</span>
-          </div>
-        </div>
-        <!-- Angela -->
-        <div class="d-flex mx-1  notificationPopupClass  notification-box mt-2 " id="popup_2">
-          <img
-            src="/assets/images/avatar-angela-gray.webp"
-            alt="angela-gray's profile picture"
-            class="profile-picture"
-          />
-          <div>
-            <h5><span class="name">Angela Gray</span> followed you       <sup>        <i class="fa-solid fa-circle text-danger" id="activeIcon_2"></i>
-            </sup>  
-            </h5>
-            <span class="time
-          ">5m ago</span>
-          </div>
-        </div>
-        <!-- Jacob -->
-        <div class="d-flex mx-1 notificationPopupClass  notification-box mt-2" id="popup_3">
-          <img
-            src="/assets/images/avatar-jacob-thompson.webp"
-            alt="jacob-thompson's profile picture"
-            class="profile-picture"
-          />
-          <div>
-            <h5>
-              <span class="name">Jacob Thompson</span> has joined your group  <span class="chess-club">Chess Club</span> <sup><i class="fa-solid fa-circle text-danger " id="activeIcon_3"></i></sup>
-            </h5>
-            <span class="time
-          "> 1 day ago</span>
-          </div>
-        </div>
-        <!-- Rizky -->
-        <div class="d-flex mx-1  notificationPopupClass mt-2" id="popup_4">
-          <img
-            src="/assets/images/avatar-rizky-hasanuddin.webp"
-            alt="rizky-hasanuddin's profile picture"
-            class="profile-picture"
-          />
-          <div>
-            <h5><span class="name">Rizky Hasanuddin </span>sent you a private message <sup><i class="fa-solid fa-circle text-danger" id="activeIcon_4"></i></sup> </h5>
-            <span class="time
-          ">5 days ago </span>
-          <div class="border border-1">
+      <div class="row  justify-content-center">
+        <div class="col-12 col-sm-10">
+          <header class="d-flex justify-content-between header my-3">
+            <h4 class="notification-heading">
+              Notifications <span class="notification-no">7</span>
+            </h4>
+            <div class="read">Mark all as read</div>
+          </header>
+          <section class="mt-3">
+            <!-- Mark -->
+            <div
+              class="d-flex mx-1 notificationPopupClass notification-box "
+              id="popup_1"
+            >
+              <img
+                src="assets/images/avatar-mark-webber.webp"
+                alt="mark-webber's profile picture"
+                class="profile-picture"
+              />
+              <div>
+                <h5>
+                  <span class="name">Mark Webber</span> reacted to your recent
+                  post
+                  <span class="my-post"> My first tournament today!</span>
+                  <sup>
+                    <i
+                      class="fa-solid fa-circle text-danger"
+                      id="activeIcon_1"
+                    ></i>
+                  </sup>
+                </h5>
+                <span class="time"> 1m ago</span>
+              </div>
+            </div>
+            <!-- Angela -->
+            <div
+              class="d-flex mx-1 notificationPopupClass notification-box mt-2 "
+              id="popup_2"
+            >
+              <img
+                src="assets/images/avatar-angela-gray.webp"
+                alt="angela-gray's profile picture"
+                class="profile-picture"
+              />
+              <div>
+                <h5>
+                  <span class="name">Angela Gray</span> followed you
+                  <sup>
+                    <i
+                      class="fa-solid fa-circle text-danger"
+                      id="activeIcon_2"
+                    ></i>
+                  </sup>
+                </h5>
+                <span class="time">5m ago</span>
+              </div>
+            </div>
+            <!-- Jacob -->
+            <div
+              class="d-flex mx-1 notificationPopupClass notification-box mt-2 "
+              id="popup_3"
+            >
+              <img
+                src="assets/images/avatar-jacob-thompson.webp"
+                alt="jacob-thompson's profile picture"
+                class="profile-picture"
+              />
+              <div>
+                <h5>
+                  <span class="name">Jacob Thompson</span> has joined your group
+                  <span class="chess-club">Chess Club</span>
+                  <sup
+                    ><i
+                      class="fa-solid fa-circle text-danger"
+                      id="activeIcon_3"
+                    ></i
+                  ></sup>
+                </h5>
+                <span class="time"> 1 day ago</span>
+              </div>
+            </div>
+            <!-- Rizky -->
+            <div
+              class="d-flex mx-1 notificationPopupClass notification-box mt-2 "
+              id="popup_4"
+            >
+              <img
+                src="assets/images/avatar-rizky-hasanuddin.webp"
+                alt="rizky-hasanuddin's profile picture"
+                class="profile-picture"
+              />
+              <div>
+              <div>
+                <h5>
+                  <span class="name">Rizky Hasanuddin </span>sent you a private
+                  message
+                  <sup
+                  ><i
+                  class="fa-solid fa-circle text-danger"
+                  id="activeIcon_4"
+                  ></i
+                  ></sup>
+                </h5>
+                <span class="time">5 days ago </span>
+              </div>
+              <div class="comment border border-1 w-75 ">
+                <h5 class="m-4">
+                  Hello, thanks for setting up the Chess Club. I've been a
+                  member for a few weeks now and I'm already having lots of
+                  fun and improving my game.
+                </h5>
+              </div>
+            </div>
+            </div>
 
-            <h5 class=" m-4">
-              Hello, thanks for setting up the Chess Club. I've been a member
-              for a few weeks now and I'm already having lots of fun and
-              improving my game.
-            </h5>
-          </div>
-          </div>
-        </div>
-        <!-- Kimberly -->
-        <div class="d-flex mx-1  notificationPopupClass  mt-2" id="popup_5">
-          <img
-            src="/assets/images/avatar-kimberly-smith.webp"
-            alt="kimberly-smith's profile picture"
-            class="profile-picture"
-          />
-          <div>
-            <h5><span class="name">Kimberly Smith </span> commented on your picture<sup><i class="fa-solid fa-circle text-danger"  id="activeIcon_5" ></i></sup></h5>
-            <span class="time
-          "> 1 week ago</span>
-          </div>
-          <img src="/assets/images/image-chess.webp" alt="my picture" class="profile-picture">
-        </div>
-        <!-- Nathan -->
-        <div class="d-flex mx- notificationPopupClass mt-2" id="popup_6">
-          <img
-            src="/assets/images/avatar-nathan-peterson.webp"
-            alt="nathan-peterson's profile picture"
-            class="profile-picture"
-          />
-          <div>
-            <h5>
-              <span class="name">Nathan Peterson </span>
-              reacted to your recent post
-               <span class="my-post"> 5
-                end-game strategies to increase your win rate</span>
-                 <sup>
-                  <i class="fa-solid fa-circle text-danger " id="activeIcon_6"></i>
-                </sup>
-            </h5>
-            <span class="time
-          ">2 weeks ago</span>
-          </div>
-        </div>
-        <!-- Anna -->
-        <div class="d-flex mx-1 notificationPopupClass mt-2" id="popup_7">
-          <img
-            src="/assets/images/avatar-anna-kim.webp"
-            alt="anna-kim's profile-picture"
-            class="profile-picture"
-          />
-          <div>
-            <h5><span class="name">Anna Kim </span> left the group <span class="chess-club">Ches1s Club </span><sup><i class="fa-solid fa-circle " id="activeIcon_7"></i></sup> </h5>
-            <span class="time
-          ">2 weeks ago</span>
-          </div>
-        </div>
 
-        <div class="attribution mt-3">
-          Challenge by
-          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-            >Frontend Mentor</a
-          >. Coded by <a href="https://github.com/Omojole/notification-page">Omojole Aishat Eniola</a>.
+            <!-- Kimberly -->
+            <div
+              class="d-flex mx-1 notificationPopupClass notification-box justify-content-between mt-2 "
+              id="popup_5"
+            >
+              <img
+                src="assets/images/avatar-kimberly-smith.webp"
+                alt="kimberly-smith's profile picture"
+                class="profile-picture"
+              />
+              <div>
+                <h5>
+                  <span class="name">Kimberly Smith </span> commented on your
+                  picture<sup
+                    ><i
+                      class="fa-solid fa-circle text-danger"
+                      id="activeIcon_5"
+                    ></i
+                  ></sup>
+                </h5>
+                <span class="time"> 1 week ago</span>
+              </div>
+              <img
+                src="assets/images/image-chess.webp"
+                alt="my picture"
+                class="profile-picture "
+              />
+            </div>
+            <!-- Nathan -->
+            <div
+              class="d-flex mx-1 notificationPopupClass notification-box mt-2 "
+              id="popup_6"
+            >
+              <img
+                src="assets/images/avatar-nathan-peterson.webp"
+                alt="nathan-peterson's profile picture"
+                class="profile-picture"
+              />
+              <div>
+                <h5>
+                  <span class="name">Nathan Peterson </span>
+                  reacted to your recent post
+                  <span class="my-post">
+                    5 end-game strategies to increase your win rate</span
+                  >
+                  <sup>
+                    <i
+                      class="fa-solid fa-circle text-danger"
+                      id="activeIcon_6"
+                    ></i>
+                  </sup>
+                </h5>
+                <span class="time">2 weeks ago</span>
+              </div>
+            </div>
+            <!-- Anna -->
+            <div
+              class="d-flex mx-1 notificationPopupClass notification-box mt-2 "
+              id="popup_7"
+            >
+              <img
+                src="assets/images/avatar-anna-kim.webp"
+                alt="anna-kim's profile-picture"
+                class="profile-picture"
+              />
+              <div>
+                <h5>
+                  <span class="name">Anna Kim </span> left the group
+                  <span class="chess-club">Chess Club </span
+                  ><sup
+                    ><i class="fa-solid fa-circle" id="activeIcon_7"></i
+                  ></sup>
+                </h5>
+                <span class="time">2 weeks ago</span>
+              </div>
+            </div>
+
+            <div class="attribution mt-3">
+              Challenge by
+              <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+              >. Coded by
+              <a href="https://github.com/Omojole/notification-page"
+                >Omojole Aishat Eniola</a
+              >.
+            </div>
+          </section>
         </div>
-      </section>
+      </div>
     </div>
     <script
-    src="https://kit.fontawesome.com/fd0f757bae.js"
-    crossorigin="anonymous"
-  ></script>
-<script src="index.js"></script>
+      src="https://kit.fontawesome.com/fd0f757bae.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="index.js"></script>
   </body>
 </html>
-  
+<!-- profile-picture -->
