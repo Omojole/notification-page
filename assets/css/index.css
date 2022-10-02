@@ -1,7 +1,7 @@
-        /* @import url(https://fonts.google.com/specimen/Plus+Jakarta+Sans);
+        @import url(https://fonts.google.com/specimen/Plus+Jakarta+Sans);
 body{
     font-family: Plus Jakarta Sans;
-} */
+}
 .attribution {
     font-size: 11px;
     text-align: center;
@@ -15,6 +15,7 @@ body{
   object-fit: contain;
   margin-left: 3vw;
   margin-right: 3vw;
+
 }   
 h5 {
     font-weight: 500;
@@ -64,6 +65,7 @@ color: hsl(0, 0%, 100%);
 }
 .read:hover{
     cursor: pointer;
+    transform: scale(1.1);
 }
 .notification-colour{
     background-color: hsl(0, 0%, 100%);
@@ -79,3 +81,4 @@ color: hsl(0, 0%, 100%);
 .my-post{
     color:hsl(224, 21%, 14%);
 }
+/* font */
