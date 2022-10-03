@@ -51,6 +51,9 @@ notificationPopup[i].addEventListener('click',function(){if(notificationNo>0){
 
   },
   {once:true})
+
+
+  
   //Mark all as read
   document.querySelector('.read').addEventListener('click',function(){
     notificationNoEl.textContent=0
