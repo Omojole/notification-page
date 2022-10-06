@@ -17,10 +17,11 @@ body{
   margin-right: 3vw;
 
 }   
-h5 {
+h2 {
     font-weight: 500;
   color:hsl(219, 12%, 42%);
   margin-bottom: 0;
+  font-size: 16px;
 }
 .notificationPopupClass{
     background-color: hsl(210, 60%, 98%);
@@ -41,6 +42,7 @@ h5 {
 .notification-heading{
     color:  hsl(224, 21%, 1);
     font-weight: 800;
+    font-size: 2rem;
 }
 .notification-no{
     border-radius: 6px;
