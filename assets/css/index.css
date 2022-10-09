@@ -42,7 +42,7 @@ h2 {
 .notification-heading{
     color:  hsl(224, 21%, 1);
     font-weight: 800;
-    font-size: 2rem;
+    font-size: 1.6rem;
 }
 .notification-no{
     border-radius: 6px;
